@@ -2,12 +2,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Hphong hub",
-         Animation = "Script Tổng Hợp Ver1"
+         Title = "trader scamhub",
+         Animation = "Script trsde scam"
          },
         Key = {
         KeySystem = false,
-        Title = "Hphong hub / Scrit Tổng Hợp",
+        Title = "Hphong hub / Scrit trade scam",
         Description = "",
         KeyLink = "",
         Keys = {"Phongdeptrai"},
@@ -33,34 +33,25 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
      local Tab1o = MakeTab({Name = "Chức Năng"})
     
     AddButton(Tab1o, {
-     Name = "Min Gaming",
+     Name = "freeze trader",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAE"))()
-
   end
   })
 
     AddButton(Tab1o, {
-     Name = "Redzhub",
+     Name = "auto accpet",
     Callback = function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
-
   end
   })
 
     AddButton(Tab1o, {
-     Name = "Azure",
+     Name = "select player (current)",
     Callback = function()
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-
   end
   })
 
     AddButton(Tab1o, {
-     Name = "Auto Nhặt Rương",
+     Name = "",
     Callback = function()
 
 local MaxSpeed = 300 -- Studs per second 380 no flag but kick
